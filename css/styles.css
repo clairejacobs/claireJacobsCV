@@ -72,11 +72,13 @@ h4 {
 
 .fab {
 	font-size: 70px;
-	padding: 20px;
+  padding: 20px;
+  color: white;
 }
 .fas {
 	font-size: 70px;
-	padding: 20px;
+  padding: 20px;
+  color: white;
 }
 
   p {
@@ -111,5 +113,16 @@ h4 {
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-gap: 15px;
+      }
+
+      .fab {
+        font-size: 50px;
+        padding: 20px;
+        color: white;
+      }
+      .fas {
+        font-size: 50px;
+        padding: 20px;
+        color: white;
       }
   }
